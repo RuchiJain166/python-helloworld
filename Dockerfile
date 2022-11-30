@@ -6,6 +6,6 @@ ADD . /app
 
 WORKDIR /app
 
-ENTRYPOINT ["/app"]
+ENTRYPOINT ["/bin/bash"]
 
 CMD ["python", "app.py"]
