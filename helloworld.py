@@ -4,6 +4,8 @@
 
 import sys
 import helloworld.main
+import os
+os.system('pip install pygame')
 
 if __name__ == '__main__':
     sys.exit(helloworld.main.main())
