@@ -7,3 +7,5 @@ ADD . /app
 WORKDIR /app
 
 ENTRYPOINT ["/bin/sh"]
+
+CMD ["python" , "main.py"]
